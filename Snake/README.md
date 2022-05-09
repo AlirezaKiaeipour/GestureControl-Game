@@ -1,1 +1,3 @@
-**Control the snake game using hand**
+## Gesture Control Snake Game
+
+Control the snake game using hand
