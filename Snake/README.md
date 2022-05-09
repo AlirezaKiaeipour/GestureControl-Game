@@ -15,6 +15,6 @@
       python Snake.py
       ```
       
-      ## Reference
+  ## Reference
       
-       https://github.com/google/mediapipe
+   https://github.com/google/mediapipe
