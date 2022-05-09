@@ -1,2 +1,2 @@
 # GestureControl-Game
-Control the games using hands
+Control the games using hand
