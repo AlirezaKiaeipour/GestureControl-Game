@@ -1,1 +1,1 @@
-### Control the games using hand
+### Control the snake game using hand
