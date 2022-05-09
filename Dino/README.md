@@ -15,6 +15,6 @@
       python Dino.py
       ```
       
-      ## Reference
+ ## Reference
       
-       https://github.com/google/mediapipe
+  https://github.com/google/mediapipe
