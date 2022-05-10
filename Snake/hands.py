@@ -24,20 +24,16 @@ class Hand:
 
     def gesture(self):
         try:
-            if self.finger[8][2] < self.finger[5][2] and not self.finger[12][2] < self.finger[9][2] and \
-                not self.finger[16][2] < self.finger[13][2] and not self.finger[20][2] < self.finger[17][2]:
+            if self.finger[8][1] - self.finger[5][1] <-60 and self.finger[8][2] - self.finger[5][2]>-50:
                 return "right"
             
-            if self.finger[8][2] < self.finger[5][2] and self.finger[12][2] < self.finger[9][2] and \
-                not self.finger[16][2] < self.finger[13][2] and not self.finger[20][2] < self.finger[17][2]:
+            if self.finger[8][1] - self.finger[5][1] > 60 and self.finger[8][2] - self.finger[5][2]<20:
                 return "left"
 
-            if self.finger[8][2] < self.finger[5][2] and self.finger[12][2] < self.finger[9][2] and \
-            self.finger[16][2] < self.finger[13][2] and not self.finger[20][2] < self.finger[17][2]:
+            if self.finger[8][1] - self.finger[5][1] >-20 and self.finger[8][2] - self.finger[5][2]<-60:
                 return "up"
 
-            if self.finger[8][2] < self.finger[5][2] and self.finger[12][2] < self.finger[9][2] and \
-            self.finger[16][2] < self.finger[13][2] and self.finger[20][2] < self.finger[17][2]:
+            if self.finger[8][1] - self.finger[5][1] >-20 and self.finger[8][2] - self.finger[5][2]>60:
                 return "down"
         except:
             pass
