@@ -14,7 +14,13 @@
       
       python Snake.py
       ```
-      
+       
+       ## Demo
+       
+       https://user-images.githubusercontent.com/88143329/167572493-375e30d1-914f-471e-90c6-69f1c73e03f1.mp4
+       
+       
+       
        ## Reference
 
        https://github.com/google/mediapipe
